@@ -1,6 +1,6 @@
 // まなびチェックAI：オフラインでも開けるようにアプリ本体を端末に保存しておく
-// 65ad152bbc は npm run build のたびに自動で書き換わる（中身が変わるとキャッシュ名も変わり、更新が届く）
-const CACHE = 'manabi-check-65ad152bbc';
+// f5e60b11f7 は npm run build のたびに自動で書き換わる（中身が変わるとキャッシュ名も変わり、更新が届く）
+const CACHE = 'manabi-check-f5e60b11f7';
 const FILES = ['./', './index.html', './manifest.webmanifest', './apple-touch-icon.png', './icon-192.png', './icon-512.png', './icon-maskable-512.png'];
 
 self.addEventListener('install', (e) => {
